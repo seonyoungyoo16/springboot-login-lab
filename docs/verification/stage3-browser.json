@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "startedAt": "2026-10-18T04:00:38.791Z",
+  "finishedAt": "2026-10-18T04:01:15.647Z",
+  "tests": [
+    {
+      "id": "L03",
+      "title": "L03 로그인 유지 선택은 영속 자격정보를 저장",
+      "status": "passed",
+      "duration": 843,
+      "error": null
+    },
+    {
+      "id": "E04",
+      "title": "E04 실제 유휴 만료 후 화면에서 유지 복원",
+      "status": "passed",
+      "duration": 4452,
+      "error": null
+    },
+    {
+      "id": "E05",
+      "title": "E05 유지 종료 직전 복원해도 원래 종료를 넘지 못함",
+      "status": "passed",
+      "duration": 19212,
+      "error": null
+    },
+    {
+      "id": "E06",
+      "title": "E06 실제 브라우저 종료와 같은 프로필 재실행",
+      "status": "passed",
+      "duration": 1443,
+      "error": null
+    },
+    {
+      "id": "E07",
+      "title": "E07 세션 쿠키만 없으면 복원하고 유지 쿠키도 없으면 로그인 요구",
+      "status": "passed",
+      "duration": 892,
+      "error": null
+    },
+    {
+      "id": "R01",
+      "title": "R01 복원 때 새 세션과 새 토큰 세대 발급",
+      "status": "passed",
+      "duration": 751,
+      "error": null
+    },
+    {
+      "id": "R02",
+      "title": "R02 직전 토큰 경쟁 요청은 409이며 성공 쿠키를 지우지 않음",
+      "status": "passed",
+      "duration": 741,
+      "error": null
+    },
+    {
+      "id": "R03",
+      "title": "R03 구분 시간이 지난 이전 토큰은 거부",
+      "status": "passed",
+      "duration": 2969,
+      "error": null
+    },
+    {
+      "id": "R04",
+      "title": "R04 두 탭이 A와 B에서 같은 토큰을 동시에 복원",
+      "status": "passed",
+      "duration": 1028,
+      "error": null
+    },
+    {
+      "id": "R05",
+      "title": "R05 토큰 교체 후 응답 유실은 이전 토큰으로 되돌리지 않음",
+      "status": "passed",
+      "duration": 3127,
+      "error": null
+    },
+    {
+      "id": "R06",
+      "title": "R06 반복 복원은 최초 유지 만료를 연장하지 않음",
+      "status": "passed",
+      "duration": 769,
+      "error": null
+    }
+  ]
+}

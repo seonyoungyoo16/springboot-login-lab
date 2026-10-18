@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "startedAt": "2026-10-18T03:55:54.399Z",
+  "finishedAt": "2026-10-18T03:56:13.678Z",
+  "tests": [
+    {
+      "id": "L05",
+      "title": "L05 서버 A 로그인 세션을 B가 공유",
+      "status": "passed",
+      "duration": 820,
+      "error": null
+    },
+    {
+      "id": "E01",
+      "title": "E01 관찰 화면을 열어도 실제 유휴 만료",
+      "status": "passed",
+      "duration": 4252,
+      "error": null
+    },
+    {
+      "id": "E02",
+      "title": "E02 정상 보호 요청은 유휴 만료만 연장",
+      "status": "passed",
+      "duration": 2321,
+      "error": null
+    },
+    {
+      "id": "E03",
+      "title": "E03 계속 활동해도 서버 절대 수명은 만료",
+      "status": "passed",
+      "duration": 10052,
+      "error": null
+    },
+    {
+      "id": "S03",
+      "title": "S03 분리된 브라우저는 인증 쿠키와 사용자를 공유하지 않음",
+      "status": "passed",
+      "duration": 1280,
+      "error": null
+    }
+  ]
+}

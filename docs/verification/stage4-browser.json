@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "startedAt": "2026-10-18T04:07:09.291Z",
+  "finishedAt": "2026-10-18T04:07:21.871Z",
+  "tests": [
+    {
+      "id": "O01",
+      "title": "O01 현재 기기 로그아웃은 옛 쿠키를 막고 다른 기기는 유지",
+      "status": "passed",
+      "duration": 1752,
+      "error": null
+    },
+    {
+      "id": "O02",
+      "title": "O02 다른 기기 해제는 재확인 후 대상만 폐기",
+      "status": "passed",
+      "duration": 1812,
+      "error": null
+    },
+    {
+      "id": "O03",
+      "title": "O03 다른 사용자의 기기 해제는 404와 데이터 불변",
+      "status": "passed",
+      "duration": 1584,
+      "error": null
+    },
+    {
+      "id": "O04",
+      "title": "O04 모든 기기 로그아웃은 버전과 옛 자격정보를 모두 폐기",
+      "status": "passed",
+      "duration": 1580,
+      "error": null
+    },
+    {
+      "id": "O05",
+      "title": "O05 전체 로그아웃과 경쟁한 복원은 뒤늦게 활성화되지 않음",
+      "status": "passed",
+      "duration": 1988,
+      "error": null
+    },
+    {
+      "id": "O06",
+      "title": "O06 DB 폐기 후 로그아웃 응답이 사라져도 옛 쿠키는 거부",
+      "status": "passed",
+      "duration": 777,
+      "error": null
+    },
+    {
+      "id": "O07",
+      "title": "O07 같은 브라우저 두 탭의 로그아웃과 서버 차단",
+      "status": "passed",
+      "duration": 1144,
+      "error": null
+    },
+    {
+      "id": "O08",
+      "title": "O08 유지 인증의 재확인 모달은 실패 때 원래 작업을 실행하지 않음",
+      "status": "passed",
+      "duration": 1307,
+      "error": null
+    }
+  ]
+}

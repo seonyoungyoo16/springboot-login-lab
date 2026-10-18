@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T04:29:13.420Z",
+  "checks": 3,
+  "desktop": {
+    "width": 1440,
+    "overflow": false
+  },
+  "mobile": {
+    "width": 390,
+    "overflow": false
+  },
+  "pageErrors": []
+}

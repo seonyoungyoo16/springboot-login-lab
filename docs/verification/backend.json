@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T04:23:42.807Z",
+  "passed": 20,
+  "stages": [
+    {
+      "stage": "general-login",
+      "passed": 3,
+      "evidence": "actual HTTPS + PostgreSQL + Redis"
+    },
+    {
+      "stage": "shared-session-expiry",
+      "passed": 3,
+      "evidence": "server B + actual Redis TTL + elapsed server time"
+    },
+    {
+      "stage": "remember-rotation",
+      "passed": 4,
+      "evidence": "DB hash + fixed expiry + new Redis session + replay conflict"
+    },
+    {
+      "stage": "device-revocation",
+      "passed": 4,
+      "evidence": "cross-client denial + DB version + revoked sessions + committed audit"
+    },
+    {
+      "stage": "dependency-failure-recovery",
+      "passed": 6,
+      "evidence": "real TCP path failures + direct DB/Redis availability + committed revocation"
+    }
+  ]
+}

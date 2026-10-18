@@ -1,0 +1,294 @@
+{
+  "status": "passed",
+  "startedAt": "2026-10-18T04:25:08.895Z",
+  "finishedAt": "2026-10-18T04:26:44.902Z",
+  "tests": [
+    {
+      "id": "L01",
+      "title": "L01 잘못된 비밀번호와 없는 아이디는 같은 오류",
+      "status": "passed",
+      "duration": 740,
+      "error": null
+    },
+    {
+      "id": "L02",
+      "title": "L02 일반 로그인과 실제 보호 설정 저장",
+      "status": "passed",
+      "duration": 1011,
+      "error": null
+    },
+    {
+      "id": "L04",
+      "title": "L04 로그인 전 세션 식별자는 인증으로 재사용되지 않음",
+      "status": "passed",
+      "duration": 757,
+      "error": null
+    },
+    {
+      "id": "S01",
+      "title": "S01 CSRF 누락은 로그인 실행 전에 거부",
+      "status": "passed",
+      "duration": 658,
+      "error": null
+    },
+    {
+      "id": "S04",
+      "title": "S04 익명 사용자의 보호 설정 변경은 저장되지 않음",
+      "status": "passed",
+      "duration": 577,
+      "error": null
+    },
+    {
+      "id": "L05",
+      "title": "L05 서버 A 로그인 세션을 B가 공유",
+      "status": "passed",
+      "duration": 1249,
+      "error": null
+    },
+    {
+      "id": "E01",
+      "title": "E01 관찰 화면을 열어도 실제 유휴 만료",
+      "status": "passed",
+      "duration": 4420,
+      "error": null
+    },
+    {
+      "id": "E02",
+      "title": "E02 정상 보호 요청은 유휴 만료만 연장",
+      "status": "passed",
+      "duration": 2418,
+      "error": null
+    },
+    {
+      "id": "E03",
+      "title": "E03 계속 활동해도 서버 절대 수명은 만료",
+      "status": "passed",
+      "duration": 10140,
+      "error": null
+    },
+    {
+      "id": "S03",
+      "title": "S03 분리된 브라우저는 인증 쿠키와 사용자를 공유하지 않음",
+      "status": "passed",
+      "duration": 1409,
+      "error": null
+    },
+    {
+      "id": "L03",
+      "title": "L03 로그인 유지 선택은 영속 자격정보를 저장",
+      "status": "passed",
+      "duration": 763,
+      "error": null
+    },
+    {
+      "id": "E04",
+      "title": "E04 실제 유휴 만료 후 화면에서 유지 복원",
+      "status": "passed",
+      "duration": 4267,
+      "error": null
+    },
+    {
+      "id": "E05",
+      "title": "E05 유지 종료 직전 복원해도 원래 종료를 넘지 못함",
+      "status": "passed",
+      "duration": 19220,
+      "error": null
+    },
+    {
+      "id": "E06",
+      "title": "E06 실제 브라우저 종료와 같은 프로필 재실행",
+      "status": "passed",
+      "duration": 1356,
+      "error": null
+    },
+    {
+      "id": "E07",
+      "title": "E07 세션 쿠키만 없으면 복원하고 유지 쿠키도 없으면 로그인 요구",
+      "status": "passed",
+      "duration": 847,
+      "error": null
+    },
+    {
+      "id": "R01",
+      "title": "R01 복원 때 새 세션과 새 토큰 세대 발급",
+      "status": "passed",
+      "duration": 777,
+      "error": null
+    },
+    {
+      "id": "R02",
+      "title": "R02 직전 토큰 경쟁 요청은 409이며 성공 쿠키를 지우지 않음",
+      "status": "passed",
+      "duration": 808,
+      "error": null
+    },
+    {
+      "id": "R03",
+      "title": "R03 구분 시간이 지난 이전 토큰은 거부",
+      "status": "passed",
+      "duration": 2980,
+      "error": null
+    },
+    {
+      "id": "R04",
+      "title": "R04 두 탭이 A와 B에서 같은 토큰을 동시에 복원",
+      "status": "passed",
+      "duration": 774,
+      "error": null
+    },
+    {
+      "id": "R05",
+      "title": "R05 토큰 교체 후 응답 유실은 이전 토큰으로 되돌리지 않음",
+      "status": "passed",
+      "duration": 3064,
+      "error": null
+    },
+    {
+      "id": "R06",
+      "title": "R06 반복 복원은 최초 유지 만료를 연장하지 않음",
+      "status": "passed",
+      "duration": 870,
+      "error": null
+    },
+    {
+      "id": "O01",
+      "title": "O01 현재 기기 로그아웃은 옛 쿠키를 막고 다른 기기는 유지",
+      "status": "passed",
+      "duration": 1552,
+      "error": null
+    },
+    {
+      "id": "O02",
+      "title": "O02 다른 기기 해제는 재확인 후 대상만 폐기",
+      "status": "passed",
+      "duration": 1731,
+      "error": null
+    },
+    {
+      "id": "O03",
+      "title": "O03 다른 사용자의 기기 해제는 404와 데이터 불변",
+      "status": "passed",
+      "duration": 1554,
+      "error": null
+    },
+    {
+      "id": "O04",
+      "title": "O04 모든 기기 로그아웃은 버전과 옛 자격정보를 모두 폐기",
+      "status": "passed",
+      "duration": 1634,
+      "error": null
+    },
+    {
+      "id": "O05",
+      "title": "O05 전체 로그아웃과 경쟁한 복원은 뒤늦게 활성화되지 않음",
+      "status": "passed",
+      "duration": 1618,
+      "error": null
+    },
+    {
+      "id": "O06",
+      "title": "O06 DB 폐기 후 로그아웃 응답이 사라져도 옛 쿠키는 거부",
+      "status": "passed",
+      "duration": 779,
+      "error": null
+    },
+    {
+      "id": "O07",
+      "title": "O07 같은 브라우저 두 탭의 로그아웃과 서버 차단",
+      "status": "passed",
+      "duration": 1131,
+      "error": null
+    },
+    {
+      "id": "O08",
+      "title": "O08 유지 인증의 재확인 모달은 실패 때 원래 작업을 실행하지 않음",
+      "status": "passed",
+      "duration": 1255,
+      "error": null
+    },
+    {
+      "id": "O09",
+      "title": "O09 세션 만료 뒤 로그아웃도 유지 자격정보를 서버에서 폐기",
+      "status": "passed",
+      "duration": 4325,
+      "error": null
+    },
+    {
+      "id": "F01",
+      "title": "F01 Redis 연결 장애는 로그인 성공으로 처리되지 않음",
+      "status": "passed",
+      "duration": 1168,
+      "error": null
+    },
+    {
+      "id": "F02",
+      "title": "F02 기존 세션의 Redis 장애는 503이며 복구 후 재검사",
+      "status": "passed",
+      "duration": 1666,
+      "error": null
+    },
+    {
+      "id": "F03",
+      "title": "F03 실제 Redis 재시작과 세션 소실 뒤 일반과 유지 로그인 구분",
+      "status": "passed",
+      "duration": 1974,
+      "error": null
+    },
+    {
+      "id": "F04",
+      "title": "F04 DB 연결 장애에서도 Redis만으로 인증하지 않음",
+      "status": "passed",
+      "duration": 3386,
+      "error": null
+    },
+    {
+      "id": "F05",
+      "title": "F05 DB 폐기 후 Redis 정리 실패와 옛 데이터 복구에도 거부",
+      "status": "passed",
+      "duration": 859,
+      "error": null
+    },
+    {
+      "id": "F06",
+      "title": "F06 Redis에 남은 PREPARING 세션은 인증이 아님",
+      "status": "passed",
+      "duration": 614,
+      "error": null
+    },
+    {
+      "id": "F07",
+      "title": "F07 앱 A를 실제 종료해도 B의 세션은 유지",
+      "status": "passed",
+      "duration": 761,
+      "error": null
+    },
+    {
+      "id": "F08",
+      "title": "F08 사용자 비활성화와 인증 버전 변경은 기존 인증을 거부",
+      "status": "passed",
+      "duration": 1206,
+      "error": null
+    },
+    {
+      "id": "F09",
+      "title": "F09 실패 제한의 만료와 동시 요청 원자성",
+      "status": "passed",
+      "duration": 6502,
+      "error": null
+    },
+    {
+      "id": "S02",
+      "title": "S02 인증 쿠키 속성과 JS 접근 및 캐시 정책",
+      "status": "passed",
+      "duration": 794,
+      "error": null
+    },
+    {
+      "id": "S05",
+      "title": "S05 로그아웃 후 뒤로가기와 새로고침도 보호 접근 불가",
+      "status": "passed",
+      "duration": 1020,
+      "error": null
+    }
+  ]
+}

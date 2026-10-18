@@ -1,0 +1,33 @@
+{
+  "name": "login-session-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/gateway.mjs",
+    "build": "node scripts/export-source.mjs && tsc -b && vite build",
+    "test:browser": "playwright test",
+    "test:backend": "node test/backend.mjs",
+    "test:stage1": "playwright test --grep @stage1",
+    "source": "node scripts/export-source.mjs",
+    "test:backend:all": "node test/backend-all.mjs",
+    "test:preview": "node scripts/capture-preview.mjs",
+    "check:coverage": "node scripts/verify-coverage.mjs",
+    "format": "prettier --write frontend scripts test *.json *.ts compose.yaml"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "pg": "^8.23.1",
+    "prettier": "^3.9.10",
+    "redis": "^6.3.0",
+    "typescript": "~5.9.3",
+    "vite": "8.3.4"
+  }
+}

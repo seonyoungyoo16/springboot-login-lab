@@ -1,0 +1,28 @@
+name: login-session-lab
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: loginlab
+      POSTGRES_USER: loginlab
+      POSTGRES_PASSWORD: loginlab_dev
+    ports: ["127.0.0.1:55432:5432"]
+    volumes: ["loginlab_pg:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U loginlab -d loginlab"]
+      interval: 2s
+      timeout: 2s
+      retries: 30
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    ports: ["127.0.0.1:56379:6379"]
+    volumes: ["loginlab_redis:/data"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 2s
+      retries: 30
+volumes:
+  loginlab_pg:
+  loginlab_redis:

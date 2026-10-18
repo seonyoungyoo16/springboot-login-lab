@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "startedAt": "2026-10-18T04:16:26.124Z",
+  "finishedAt": "2026-10-18T04:16:49.814Z",
+  "tests": [
+    {
+      "id": "O09",
+      "title": "O09 세션 만료 뒤 로그아웃도 유지 자격정보를 서버에서 폐기",
+      "status": "passed",
+      "duration": 4336,
+      "error": null
+    },
+    {
+      "id": "F01",
+      "title": "F01 Redis 연결 장애는 로그인 성공으로 처리되지 않음",
+      "status": "passed",
+      "duration": 1194,
+      "error": null
+    },
+    {
+      "id": "F02",
+      "title": "F02 기존 세션의 Redis 장애는 503이며 복구 후 재검사",
+      "status": "passed",
+      "duration": 1168,
+      "error": null
+    },
+    {
+      "id": "F03",
+      "title": "F03 실제 Redis 재시작과 세션 소실 뒤 일반과 유지 로그인 구분",
+      "status": "passed",
+      "duration": 2277,
+      "error": null
+    },
+    {
+      "id": "F04",
+      "title": "F04 DB 연결 장애에서도 Redis만으로 인증하지 않음",
+      "status": "passed",
+      "duration": 1037,
+      "error": null
+    },
+    {
+      "id": "F05",
+      "title": "F05 DB 폐기 후 Redis 정리 실패와 옛 데이터 복구에도 거부",
+      "status": "passed",
+      "duration": 1094,
+      "error": null
+    },
+    {
+      "id": "F06",
+      "title": "F06 Redis에 남은 PREPARING 세션은 인증이 아님",
+      "status": "passed",
+      "duration": 730,
+      "error": null
+    },
+    {
+      "id": "F07",
+      "title": "F07 앱 A를 실제 종료해도 B의 세션은 유지",
+      "status": "passed",
+      "duration": 905,
+      "error": null
+    },
+    {
+      "id": "F08",
+      "title": "F08 사용자 비활성화와 인증 버전 변경은 기존 인증을 거부",
+      "status": "passed",
+      "duration": 1227,
+      "error": null
+    },
+    {
+      "id": "F09",
+      "title": "F09 실패 제한의 만료와 동시 요청 원자성",
+      "status": "passed",
+      "duration": 6452,
+      "error": null
+    },
+    {
+      "id": "S02",
+      "title": "S02 인증 쿠키 속성과 JS 접근 및 캐시 정책",
+      "status": "passed",
+      "duration": 907,
+      "error": null
+    },
+    {
+      "id": "S05",
+      "title": "S05 로그아웃 후 뒤로가기와 새로고침도 보호 접근 불가",
+      "status": "passed",
+      "duration": 1190,
+      "error": null
+    }
+  ]
+}

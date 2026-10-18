@@ -1,0 +1,162 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T04:32:44.151Z",
+  "designScenarios": 40,
+  "passingDesignScenarios": 40,
+  "additionalScenarios": [
+    "O09"
+  ],
+  "browserScenarios": 41,
+  "sourceAnchors": 18,
+  "sourceSha256": "3f18e3c180f545f0687f77e29108820aa2e00cc6c69e051382813cea4835370a",
+  "inputs": [
+    {
+      "file": "backend/pom.xml",
+      "sha256": "034ca04e0a549f5db75faeba603e93e1e920290fa184517def782d3b5f3c8a4c"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/ApiAdvice.java",
+      "sha256": "b22cd4cf9030a8e415e5f802793af3fdbe08e7f8c963a8a9df19087452fa3a61"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/Application.java",
+      "sha256": "573b056ad1722a3333086d7e591bd3adb58391b87c59cd8948553ee211deccf9"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/AuthController.java",
+      "sha256": "bfa8989a018e6d4789027a5dfd17f568fc5d04a0aefedd652da392b0ba0a39af"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/AuthOperations.java",
+      "sha256": "4b12981f5f7d8baf281003d5aa4982ec6925d505b4d290e81f3d225cf2e559c4"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/AuthService.java",
+      "sha256": "dd2f058009a1527c3c694ee1897c17e8c971ba9b21c7a01cd5d8c0dce83925ea"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/CleanupService.java",
+      "sha256": "c55db6650a7bdc1b743e4ee2ae609f004a5ea8bf85aa20de4b21de024962d790"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/Database.java",
+      "sha256": "fb401cd18c20a8dc9b2c70e75f8051cbdad727fc46cb204ff505e8337ba60412"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/Failure.java",
+      "sha256": "8014cf4ec27c0e9fa3bff1ec9d35de5f4d52e121f75fe721f783bf6475e4c024"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/Faults.java",
+      "sha256": "adf1eceff6847c1954c4b3ae3ee6d2c03f53a2cfee1a23088f1a1656e7811fcf"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/LabController.java",
+      "sha256": "c31857725ab3adec36f18e7a2d30df484565b8bdac7d2bffb4e6115e1ef7c588"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/LoginLimiter.java",
+      "sha256": "dd3385aecabd504b750e586a4ad285aa3443943f8941e9fae3f3da1e80327d66"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/Policy.java",
+      "sha256": "ae5e7c215092ebf79c6683b9f1c31fd2405c8a9d69d2b0bb55659cdf751b548d"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/RequestScope.java",
+      "sha256": "41bab02374ba5c5500e79a13a6ee1ecff8050c68dc3b038bbb11e67d041f9f03"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/RunStore.java",
+      "sha256": "12fb190f6f186fc128f009053d4f399c3fb5fdbb1244c318e1d13c75291d7d8b"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/SecurityConfig.java",
+      "sha256": "66f97f879e77bd34dbbeb9c266f03168bf30c43afb365802bb570eaaa6b0479d"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/SessionStore.java",
+      "sha256": "30fdb88943958bc6e0c1b9fccb5d9a65e4fe1ff82322da1129d3566dd335088c"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/TraceFilter.java",
+      "sha256": "d244825f00a440d8c66cab451136961515001f2206c95b028734584f6f03fd01"
+    },
+    {
+      "file": "backend/src/main/java/dev/portfolio/loginlab/TraceLog.java",
+      "sha256": "a92021bc0e1eeb44d9a77c542074390e3aa47b435ddbe957b4b4d56b8ee06d07"
+    },
+    {
+      "file": "backend/src/main/resources/application.properties",
+      "sha256": "5cf588bd31328e4860d260209133c04b239caf71d153e391f41f47656b57a6a5"
+    },
+    {
+      "file": "backend/src/main/resources/db/migration/V1__authentication.sql",
+      "sha256": "c7211fcb7dd117cd4346af7b7e891c5f058adb18f3b7f43c28e97321ea058f6b"
+    },
+    {
+      "file": "backend/src/main/resources/db/migration/V2__cleanup_uniqueness.sql",
+      "sha256": "0bb3ffd805ff2a472da85294c0a0adc16be72ca12f2244ef7d7c5155e71d2c4e"
+    },
+    {
+      "file": "frontend/main.tsx",
+      "sha256": "0bce9c8f3a604ca8bb52f3209c8d2924fe74f6a2afcb8c8c4ea3a7caa2de390a"
+    },
+    {
+      "file": "frontend/style.css",
+      "sha256": "a7e0386f05136100c5bc6d6dcacf5213973334091152db28cdd161809a940d2a"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "eac12a5b2a8e72a2ceaa1ebfe6ed863628258a3def9c471b540127082c558d24"
+    },
+    {
+      "file": "package.json",
+      "sha256": "10581a774b6c1cc63fed9ac390cbeb902bf2d3e65c3e96775207676232ba681b"
+    },
+    {
+      "file": "scripts/capture-preview.mjs",
+      "sha256": "00d6885580d04f71b4b53bddd6eb70cce8e92f15c9f382592b5878ab3ab55ecf"
+    },
+    {
+      "file": "scripts/export-source.mjs",
+      "sha256": "67db33b2a52004284a5b99e1fc02b54566a51b443cac3a6b23e7bf23759a1ef9"
+    },
+    {
+      "file": "scripts/gateway.mjs",
+      "sha256": "d112aa4654f6994988256f20dfd09caa0057b3788a26a083a707f190e50c0956"
+    },
+    {
+      "file": "scripts/infra.mjs",
+      "sha256": "925037ea012bcad6b2c8c90b1810f29214047294d230abcd055dc60e4cc4711c"
+    },
+    {
+      "file": "scripts/init-db.mjs",
+      "sha256": "a04e04507b7645683ded9e6c7eef8e9c114025d7bd8b08169e65733bd9ccc017"
+    },
+    {
+      "file": "scripts/maven.ps1",
+      "sha256": "e267c4f4116ff95e8087621a256bc3919c729bebd117cc72b68c67d5e31ffdb5"
+    },
+    {
+      "file": "scripts/run-browser-ui.mjs",
+      "sha256": "0393c9e6a22124639a0f83765fc7f772812b569e122ac96272d3b4fd6314eadb"
+    },
+    {
+      "file": "scripts/setup-local.ps1",
+      "sha256": "582944ccd0c48d4875b72738b80d83228645a28bdfc98ce6768ec1d979597c2f"
+    },
+    {
+      "file": "scripts/start-local.ps1",
+      "sha256": "ddafd4121ec7c537da5dfd6115d43766f88aa71dd7e2529543e394e7c85e365b"
+    },
+    {
+      "file": "scripts/stop-local.ps1",
+      "sha256": "2e8aed0d073f09922d485a8462b8186971fb3f0d65e2c7c352c48bbde7cd3e02"
+    },
+    {
+      "file": "scripts/verify-coverage.mjs",
+      "sha256": "41436e72cbd3c7fbc5bb884d6e5a29c586240a65f7a609035861048fc8a481ed"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T04:32:43.243Z",
+  "postgresRunsPreserved": 116,
+  "auditEventsPreserved": 286,
+  "redisKeys": 236,
+  "apps": {
+    "A": 200,
+    "B": 200
+  },
+  "packagedArtifactMatchesBothInstances": true
+}
